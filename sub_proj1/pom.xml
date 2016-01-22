@@ -23,6 +23,17 @@
       <artifactId>hadoop-client</artifactId>
       <version>${hadoop.version}</version>
     </dependency>
+
+    <!--
+    <dependency>
+      <groupId>org.apache.hadoop</groupId>
+      <artifactId>hadoop-client</artifactId>
+      <version>${hadoop.version}</version>
+      <scope>system</scope>
+      <systemPath>path/foo-1.0-jar-with-dependencies.jar</systemPath>
+    </dependency>
+    -->
+
   </dependencies>
 
 </project>
